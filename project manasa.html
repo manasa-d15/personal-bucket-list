@@ -1,0 +1,139 @@
+HTML:
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bucket List</title>
+  
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:brown;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.bucket-list {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.bucket-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bucket-list li {
+    margin-bottom: 20px;
+}
+
+.bucket-list img {
+    width: 50%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.bucket-list h3 {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+@media only screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+    .bucket-list {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .bucket-list img {
+        height: 100px;
+    }
+    .bucket-list h3 {
+        font-size: 16px;
+    }
+}
+</style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <marquee behavior="scrool" direction="left" >
+    </marquee>
+    <header>
+        <h1><marquee behavior="scrool" direction="left" >
+       My Personal Bucket List</marquee></h1>
+    </header>
+    <main>
+        <section class="bucket-list">
+            <h1><center><b>Places I love to explore.</b></center></h1>
+            <ul>
+                <li>
+                    <h3>Eiffel tower,paris</h3>
+                    <img src="C:\Users\Kanumettar\Downloads\Eiffel tower.jpg" alt="Eiffel tower" width="300" height="200">
+                    
+                   
+                </li>
+                <li>
+                    <h3>Seoul,South korea</h3>
+                    <img src="C:\Users\Kanumettar\Downloads\seoul.jpg"alt="Seoul" width="300" height="200">
+                    
+                   
+                </li>
+                <li>
+                    <h3>Bali,Indonesia</h3>
+                    <img src="C:\Users\Kanumettar\Downloads\Bali.jpg" alt="Bali" width="300" height="200">
+                    
+                    
+                </li>
+            </ul>
+        </section>
+        <section class="bucket-list">
+            <h1><center>Things to do.</center></h1>
+            <ul>
+                <li>
+                    <h4>FRANCE</h4>
+                    <img src="C:\Users\Kanumettar\Downloads\paris,streets.webp" width="300" height="200">
+                 <p>visit the effiel tower in paris it is a symbol of love and to rome in paris streets for having an beautiful experince.<p>
+                </li>
+                <li>
+                    <h4>KOREA</h4>
+                    <img src="C:\Users\Kanumettar\Downloads\seoul streets.jpg" width="300" height="200">
+                <p>i want to experience different kinds of culture in those one of the most beautiful country south korea.
+                  A unique blend of ancient traditions and modern urban life and also wanted to have a experiance in Korean cuisines.</p>
+                </li>
+                <li>
+                    <h4>INDONESIA</h4>
+                    <img src="C:\Users\Kanumettar\Downloads\bali img.jpeg"width="300" height="200">
+                    
+                    <p>Bali is one of the travelling place to explore their culture,food habitsand to know the history of some old temples to gain a better experiance.</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 My Bucket List</p>
+    </footer>
+</body>
+</html>
+
